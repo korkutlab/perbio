@@ -1,0 +1,15 @@
+ n_expts	89
+ n_nodes	99
+ n_wvals	11
+ wmax	1.00E+00
+ threshold	1.00E-06
+ lambda	5.00
+ beta	2.00
+ n_priors	154
+ n_models	80
+ file_node_index	node_index.txt
+ file_expt_index	expt_index.txt
+ file_prio	prio.txt
+ file_data	data.txt
+ file_pert	pert.txt
+

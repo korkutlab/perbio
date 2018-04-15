@@ -1,0 +1,7 @@
+ n_nodes	99
+ file_pert	pert_insilico.txt
+ model_file_prefix	model_
+ model_file_suffix	.txt
+ model_id_beg	1
+ model_id_end	80
+

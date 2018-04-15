@@ -1,0 +1,26 @@
+ BP-based algorithm for network inference from perturbation data
+ Authors: Anil Korkut @ MDACC, Chris Sander @ Harvard
+ 
+ Parameters and file names from input:
+ n_expts	          89
+ n_nodes	          99
+ n_wvals	          11
+ wmax	   1.0000000000000000     
+ threshold	   9.9999999999999995E-007
+ lambda	   5.0000000000000000     
+ beta	   2.0000000000000000     
+ n_priors	         154
+ n_models	          80
+ file_node_index	node_index.txt                                                                                      
+ file_expt_index	expt_index.txt                                                                                      
+ file_prio	prio.txt                                                                                            
+ file_data	data.txt                                                                                            
+ file_pert	pert.txt                                                                                            
+ 
+ Note: 1) the output of the decimation process will be written in 'decimation_output.txt'
+       2) the infered models will be written in files with prefix 'model_'
+ 
+ round           1
+ con_flag is 0
+ error=   6.65197229       4.5759744644165039        6.00928307    
+ round           2
