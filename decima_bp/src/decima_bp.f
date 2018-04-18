@@ -30,7 +30,7 @@ cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
       module decima_bp
       implicit none
-      character*11, allocatable, save :: prior_pri1(:), prior_pri2(:)
+      character*100, allocatable, save :: prior_pri1(:), prior_pri2(:)
       integer, allocatable, save :: prior_priv(:)
       real, allocatable, save :: prior_dist(:), prior_support(:)
 
@@ -1141,7 +1141,7 @@ c	gaussian term to be included
        real dilt(nnodes,nwvals),support(n_pri),degree(NNODES)
        real prize(nnodes,nwvals)
        real penalty(nnodes,nwvals),prio_const,prio_gamma
-       character protna(nnodes)*11
+       character protna(nnodes)*100
        include "common.bp2"
               include "common.main"
               prio_const=1

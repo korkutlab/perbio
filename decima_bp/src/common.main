@@ -30,12 +30,12 @@ cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
        integer b_dec,round,iiix
        double precision Wijmax,jfx
        double precision alb(1000),albe(1000)
-       character*11 pri1(1000),pri2(1000)
+       character*100 pri1(1000),pri2(1000)
        integer n_pri
-       character name_ii(1000,1000)*11
+       character name_ii(1000,1000)*100
        integer ggg,priv(1000)
-       character name*11,protname(1000)*11
-       character protnamei(1000)*11,name_i(1000)*11
+       character name*100,protname(1000)*100
+       character protnamei(1000)*100,name_i(1000)*100
        double precision xdiabs(1000,1000)
        double precision XDATAi(1000,1000)
        integer in(1000),n_vax,indr
